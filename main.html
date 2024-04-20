@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainstyles.css">
+    <title>Sentiment sphere Main</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Sentiment Analysis</h1>
+        <div>
+            <label for="textInput">Express how you feeling today:</label><br>
+            <textarea id="textInput" rows="4" cols="50"></textarea>
+            <br>
+            <button onclick="getEmotionalStatus()">Analyze</button>
+        </div>
+        <div id="outputContainer" class="output-container">
+            <div id="emotionalStatus" class="emotional-status"></div>
+        </div>
+    </div>
+
+    <script src="codescript.js"></script>
+</body>
+</html>

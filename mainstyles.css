@@ -1,0 +1,56 @@
+body {
+    font-family: 'Century Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('main.png'); /* Add your background image path here */
+    background-color: #f0f0f0; /* Set a background color for the main page */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px; /* Add some top margin to create space between heading and input */
+}
+
+h1 {
+    font-size: 48px;
+    color: #333; /* Set the text color */
+    margin-bottom: 20px;
+}
+
+textarea {
+    border-radius: 10px; /* Set the border radius to make the edges curved */
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 80%; /* Adjust the width as needed */
+    height: 100px; /* Set the height to a fixed value */
+    resize: none; /* Disable resizing */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+output-container {
+    margin-top: 20px;
+}
+
+.emotional-status {
+    font-size: 48px; /* Increase the font size for bigger emojis */
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emotional-status p {
+    margin-left: 20px; /* Add more space between emoji and text */
+}
